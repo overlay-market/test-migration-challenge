@@ -8,7 +8,6 @@
 ### Test migration task
 - Migrate the `token/tests/test_approve.py` Brownie test to Foundry
 - Add fuzzing to `test_revoke_approve` 
-- Ensure the tests pass
 
 ### Solidity task
 - Solve `solidity-challenge/challenge.md`
