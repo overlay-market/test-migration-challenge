@@ -11,9 +11,7 @@
 - Ensure the tests pass
 
 ### Solidity task
-- 
+- Solve `solidity-challenge/challenge.md`
 
 ### Commit challenge
 - Create a Pull Request with your solution and send it to `tomas@overlay.foundation`
-
-## 
