@@ -52,6 +52,17 @@ contract TokenTest is Test {
         vm.stopPrank();
     }
 
+    /// forge-config: default.fuzz.runs = 1000
+    function testFuzzRevokeApprove(uint256 _value) public {
+        vm.startPrank(account1);
+        vm.assume(_value > 0);
+        token.approve(account2, _value);
+
+        token.approve(account2, 0);
+
+        assertEq(token.allowance(account1, account2), 0);
+    }
+
     function testApproveSelf() public {
         vm.prank(account1);
         token.approve(account1, 10 ** 19);
