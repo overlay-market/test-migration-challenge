@@ -1,3 +1,6 @@
 [submodule "solution/token/lib/forge-std"]
 	path = solution/token/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "solution/challenge_ERC20/lib/forge-std"]
+	path = solution/challenge_ERC20/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
