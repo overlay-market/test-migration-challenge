@@ -2,7 +2,7 @@
 
 ## Instructions
 
-- Fork this respository and set it to Private
+- Clone this respository and set it to Private
 - Invite `TomasCImach` as Collaborator
 
 ### Test migration task
